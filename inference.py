@@ -4,8 +4,8 @@ import torch
 from lightning.fabric import Fabric
 from PIL import Image
 
-from src.config import Config
-from src.model.dfdet import DeepfakeDetectionModel
+from deepfake_detection.config import Config
+from deepfake_detection.model.dfdet import DeepfakeDetectionModel
 
 DEVICES = [0]
 

@@ -6,7 +6,7 @@ import seaborn as sns
 from numpy import ndarray
 from sklearn import metrics as M
 
-from src.utils.decorators import TryExcept
+from deepfake_detection.utils.decorators import TryExcept
 
 
 @TryExcept("plot_curve")
